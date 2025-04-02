@@ -15,5 +15,5 @@ app.use(cors());
 app.use('/users', userRoutes);
 
 // Iniciar o servidor
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 10000;
 app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
