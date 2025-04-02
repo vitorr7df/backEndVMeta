@@ -1,5 +1,5 @@
 export interface Usuario {
-    id: string;
+    id: number;
     nome: string;
     email: string;
     senha_hash: string;
@@ -7,10 +7,10 @@ export interface Usuario {
 }
 
 export interface TokenPayload {
-    id: string;
+    id: number;
 }
 
 export interface LoginResponse {
     token: string;
-    user: { id: string; nome: string; email: string };
+    user: { id: number; nome: string; email: string };
 }
